@@ -1,5 +1,5 @@
 import pytest
-from tenis.tenis import tenis_game
+from tenis import tenis_game
 
 
 @pytest.mark.parametrize("a, b",
