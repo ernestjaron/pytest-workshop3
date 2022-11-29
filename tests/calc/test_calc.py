@@ -71,5 +71,3 @@ def test_avg_gt_lt(a, b, c):
 @pytest.mark.parametrize("a, c", [([], 0)])
 def test_empty_num_list(a, c):
     assert Calculator().avg(*a) == c
-
-
